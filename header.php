@@ -12,10 +12,10 @@
   <header>
   <img src="pictures/logo.png" alt="upscale-logo" >
   <nav>
-    <a href=""><h4>About</h4></a>
-    <a href=""><h4>Services</h4></a>
-    <a href=""><h4>Events</h4></a>
-    <a href=""><h4>Contact</h4></a>
+    <a href="about.php"><h4>About</h4></a>
+    <a href="services.php"><h4>Services</h4></a>
+    <a href="events.php"><h4>Events</h4></a>
+    <a href="contact.php"><h4>Contact</h4></a>
     <button>Sign In</button>
   </nav>
   <i class="ri-menu-line"></i>
