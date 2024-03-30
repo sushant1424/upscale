@@ -1,3 +1,6 @@
+
+
+
 .content{
   width:100%;
   height:calc(100% - 100px);
@@ -50,9 +53,84 @@
   width:100%;
 }
 .info{
-  background-color: #C8F2D5;
+
   height:80%;
   width:100%;
+}
+
+.display-event{
+  background-color: #C8F2D5;
+  width:100%;
+  height:650px;
+  padding:2vw 5vw;
+  position:relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:3vw;
+  
+  
+}
+.display-event h2{
+ text-align: center;
+ font-size: 2.5vw;
+ color:brown;
+}
+.gallery{
+  display:flex;
+  gap:2vw;
+}
+.gallery img{
+  width:220px;
+  height:auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.gallery img:hover{
+  transform: scale(1.2);
+}
+.display-event button{
+  background-color: #FF8264;
+  padding:1vw 3vw;
+  border:none;
+  color:white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.display-event button:hover{
+  background-color: #e9775b;
+}
+.info{
+  width:100%;
+  height:500px;
+  padding:2vw 5vw;
+  position: relative;
+}
+.info h2{
+  text-align: center;
+  font-size: 2.5vw;
+  margin-bottom:3vw;
+}
+.cards{
+ display:flex;
+ justify-content: space-around;
+}
+.card{
+  display:flex;
+  flex-direction: column;
+  gap:1vw;
+  align-items: center;
+}
+.card img{
+  width:250px;
+}
+
+.card p{
+  width:80%;
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: 600;
 }
 @media(max-width:600px)
 {
@@ -64,12 +142,12 @@
   }
   .left{
     width:100%;
-    height:55%;
+    height:60%;
     
   }
   .right{
     width:100%;
-    height:45%;
+    height:40%;
   }
   .left h1{
     font-size: 10vw;
@@ -86,4 +164,52 @@
     border-radius: 3px;
     font-size: 2vw;
   }
+  
+  
 }
+@media (max-width:930px){
+  .display-event{
+    padding:6vw 6vw 2vw 6vw;
+    height:1200px;
+    gap:5vw;
+  }
+  .display-event h2{
+    font-size: 3.5vw;
+  }
+  .gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
+  .gallery img{
+      width:180px;
+      height:200px;
+  }
+  .display-event button{
+    padding:2vw 4vw;
+  }
+  .info{
+    padding:4vw 6vw;
+    height:900px;
+  }
+  .info h2{
+    font-size: 6vw;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    gap:4vw;
+  }
+  
+  .card img{
+    width:200px;
+  }
+  .card p{
+    font-size: 2vw;
+    width:50%;
+  }
+}
+
+
+
+
