@@ -15,7 +15,7 @@
       <div class="left">
         <h1>Elevate Your <span>Events</span> and <span>Memories</span> With Us.</h1>
         <p>Looking for a great place to organize and manage your events? You are in the right place.</p>
-        <button>Get Started</button>
+        <a href="signup.php"><button>Get Started</button></a>
       </div>
       <div class="right">
           <img src="pictures/coverimage.jpg" alt="Event Cover Picture"/>

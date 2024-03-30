@@ -1,6 +1,4 @@
 
-
-
 .content{
   width:100%;
   height:calc(100% - 100px);
@@ -74,7 +72,7 @@
 .display-event h2{
  text-align: center;
  font-size: 2.5vw;
- color:brown;
+ color:rgb(10, 10, 10);
 }
 .gallery{
   display:flex;
